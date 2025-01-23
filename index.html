@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Furtado</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&family=Playfair+Display:ital@1&family=Role+Model&display=swap" rel="stylesheet">
+    <!-- Favicon (opcional) -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
 
+    <header>
+        <h1 aria-label="Título principal: Ana Furtado">ANA FURTADO</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" aria-label="Ir para a página inicial"><i class="fas fa-home"></i></a></li>
+                <li><a href="#minha-trajetoria" aria-label="Ver minha trajetória">Minha Trajetória</a></li>
+                <li class="dropdown">
+                    <a href="#" aria-haspopup="true" aria-expanded="false">Projetos</a>
+                    <div class="dropdown-content">
+                        <a href="projetos/papia-content.html">Papia Content</a>
+                        <a href="projetos/cartas-diaspora.html">Cartas da Diáspora</a>
+                    </div>
+                </li>
+                <li><a href="conteudo.html" aria-label="Ver meu conteúdo">Conteúdo</a></li>
+                <li><a href="#" target="_blank" aria-label="LinkedIn"><img src="img/linkedin.png" alt="LinkedIn"></a></li>
+                <li><a href="#" target="_blank" aria-label="Instagram"><img src="img/instagram.png" alt="Instagram"></a></li>
+                <li><a href="mailto:seuemail@exemplo.com" aria-label="Enviar um e-mail"><img src="img/email.png" alt="E-mail"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="banner banner-1">
+            <img src="img/banner1.jpg" alt="Foto de Ana Furtado (descrição detalhada)">
+            <div class="banner-text">
+                <h2 aria-label="Ana Furtado"><span class="italic">ana furtado</span></h2>
+            </div>
+        </section>
+
+        <section class="banner banner-2">
+            <div class="banner-text">
+                <p class="italic">a comunicação como caminho para inclusão</p>
+            </div>
+            <img src="img/banner2.jpg" alt="Foto relacionada à comunicação inclusiva (descrição detalhada)">
+        </section>
+
+        <section id="minha-trajetoria" class="banner banner-3">
+            <img src="img/banner3.jpg" alt="Mãos digitando no computador">
+            <div class="banner-text">
+                <p>Meu nome é Ana Furtado, Sou o fruto da união de culturas, a cabo-verdiana e a brasileira, resultando uma verdadeira Brasi-verdiana. Apaixonada por desafios que me permitam utilizar minhas habilidades de comunicação para um presente mais inclusivo e equitativo!</p>
+                <!-- Restante do texto da mini bio -->
+            </div>
+        </section>
+
+        <section class="banner banner-4">
+            <h2>Passos da minha trajetória</h2>
+            <div class="icon-grid">
+                <!-- Ícones de marcas aqui -->
+            </div>
+        </section>
+
+        <!-- Seção de conteúdo (galeria de prints/fotos) linkando para conteudo.html -->
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <!-- Repetição dos ícones de mídia social -->
+        </div>
+        <form class="contact-form">
+            <h3>Entre em contato</h3>
+            <input type="email" placeholder="Seu e-mail" aria-label="Seu e-mail">
+            <input type="text" placeholder="Título da mensagem" aria-label="Título da mensagem">
+            <textarea placeholder="Sua mensagem" aria-label="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
