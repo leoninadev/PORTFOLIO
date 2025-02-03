@@ -1,8 +1,13 @@
-/* Reset CSS */
-* {
+ /* Reset CSS */
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Nixie One';
+    src: url('font/NixieOne-Regular.ttf') format('truetype');
 }
 
 body {
@@ -103,7 +108,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    overflow: hidden; /* Importante para o efeito de background */
+    overflow: hidden;
 }
 
 .banner-1 {
@@ -203,22 +208,22 @@ section {
 .banner-3 .banner-text {
      padding: 60px;
       z-index: 1;
-      background-color: rgba(57, 37, 35, 0.85);
+        background-color: rgba(57, 37, 35, 0.85);
       max-width: 900px;
       margin: 20px;
       border-radius: 8px;
-       text-align: center;
+      text-align: center;
 }
 
 .mini-bio {
-     font-family: 'Role Model', sans-serif;
+    font-family: 'Role Model', sans-serif;
     font-size: 1.1em;
     font-weight: 500;
     color: #fff;
-    line-height: 1.8;
+    line-height: 1.7;
      max-width: 800px;
     text-align: left;
-     padding: 30px;
+       padding: 30px;
 }
 
 .banner-4 {
